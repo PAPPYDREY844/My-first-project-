@@ -1,0 +1,35 @@
+header{
+	display:flex;
+	flex-wrap:wrap ;
+	background-color:lightblue;
+	border-bottom-style: solid ;
+	border-bottom-color: black;
+	border-bottom-width: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius :0px 0px 40px 40px;
+	color: black;
+	height:100px;}
+#image1 {width: 150px;
+height: 230px;
+	margin-left: 30px;
+}
+#image2 {width: 150px;
+height: 230px;}
+#image1 , #image2 {
+	border-style:;
+	margin-left: 20px;
+}
+#image3{ 
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+}
+#timeless {
+display: ;
+float:left;}
+#image4{
+	width: 100%;
+	height: auto ;
+}
+#html { background-color:whitesmoke;}
