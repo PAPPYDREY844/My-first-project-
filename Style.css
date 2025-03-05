@@ -1,158 +1,36 @@
-/* Reset default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header{
+	display:flex;
+	flex-wrap:wrap ;
+	background-color:lightblue;
+	border-bottom-style: solid ;
+	border-bottom-color: black;
+	border-bottom-width: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius :0px 0px 40px 40px;
+	color: black;
+	height:100px;}
+#image1 {width: 150px;
+height: 230px;
+	margin-left: 30px;
 }
-
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    font-size: 16px;
+#image2 {width: 150px;
+height: 230px;}
+#image1 , #image2 {
+	border-style:;
+	margin-left: 20px;
 }
-
-/* Header Styling */
-#header {
-    background-color: #1a1a1a;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+#image3{ 
+	width: 300px;
+	height: 200px;
+	margin: 10px;
 }
-
-#header h1 {
-    font-size: 2.5em;
-    letter-spacing: 2px;
-}
-
-/* Main Container */
-#all {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Image Styling */
-#image1, #image2, #image3, #image4 {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Bio Section */
-#bio {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#bio h2 {
-    color: #1a1a1a;
-    margin-bottom: 10px;
-}
-
-p {
-    margin: 15px 0;
-    font-size: 1.1em;
-}
-
-/* Section Styling */
-section {
-    margin: 30px 0;
-}
-
-section h3 {
-    color: #1a1a1a;
-    font-size: 1.8em;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #1a1a1a;
-    display: inline-block;
-}
-
-ul {
-    list-style-type: none;
-    margin: 20px 0;
-}
-
-ul li {
-    margin: 15px 0;
-}
-
-ul li h4 {
-    font-size: 1.4em;
-    color: #2c3e50;
-}
-
-/* Timeless Section */
 #timeless {
-    background-color: #e8f4f8;
-    padding: 15px;
-    border-left: 5px solid #3498db;
+display: ;
+float:left;}
+#image4{
+	width: 100%;
+	height: auto ;
 }
-
-/* Fanbase Section */
-#fanbase {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#fanbase h2 {
-    color: #e74c3c;
-    margin-bottom: 15px;
-}
-
-/* Links */
-a {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #e74c3c;
-    text-decoration: underline;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #1a1a1a;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    #header h1 {
-        font-size: 1.8em;
-    }
-
-    section h3 {
-        font-size: 1.5em;
-    }
-
-    ul li h4 {
-        font-size: 1.2em;
-    }
-
-    #all {
-        padding: 10px;
-    }
-
-    #image1, #image2, #image3, #image4 {
-        margin: 10px auto;
-    }
-}
+#all {font-size: 2rem;}
+#html { background-color:whitesmoke;}
