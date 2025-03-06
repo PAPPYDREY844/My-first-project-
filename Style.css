@@ -1,5 +1,9 @@
+css
 html {
   font-size: 16px; /* Base font size, 1rem = 16px */
+}
+#all{
+    font-size: 2rem;
 }
 
 header {
@@ -13,7 +17,8 @@ header {
   margin-bottom: 1.25rem; /* 20px / 16 = 1.25rem */
   border-radius: 0rem 0rem 2.5rem 2.5rem; /* 40px / 16 = 2.5rem */
   color: black;
-  height: 6.25rem; /* 100px / 16 = 6.25rem */
+  height: 10.25rem; /* 100px / 16 = 6.25rem */
+  font-size: 1.50rem;
 }
 
 #image1 {
@@ -33,8 +38,8 @@ header {
 }
 
 #image3 {
-  width: 18.75rem; /* 300px / 16 = 18.75rem */
-  height: 12.5rem; /* 200px / 16 = 12.5rem */
+  width: 100%; /* 300px / 16 = 18.75rem */
+  height: 100%; /* 200px / 16 = 12.5rem */
   margin: 0.625rem; /* 10px / 16 = 0.625rem */
 }
 
